@@ -1,0 +1,26 @@
+.container{
+    background-color: black;
+    color: white;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.container nav a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+    display: flex;
+    margin-top: 20px;
+}
+.container nav a:hover{
+     border-bottom: 2px solid green;
+    cursor: pointer;
+    
+    
+}
+.logo{
+    color: green;
+}

@@ -1,0 +1,48 @@
+.container img{
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    transition: transform 1s ease;
+    margin: 10px;
+
+
+}
+.container img:hover{
+    transform: scale(1.06);
+    cursor: pointer;
+
+
+}
+
+.container{
+    margin: 40px;
+    border: 2px solid goldenrod;
+    height: 400px;
+    border-radius: 10px;
+    padding: 12px;
+    display: flex;
+
+
+}
+.bookBtn{
+    background-color: goldenrod;
+    padding: 5px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 2px solid grey;
+    transition: transform 1s ease;
+
+
+}
+.bookBtn:hover{
+    background-color: black;
+    color: goldenrod;
+     transform: scale(1.04);
+     cursor: pointer;
+
+}
+
+.childContainer{
+
+}

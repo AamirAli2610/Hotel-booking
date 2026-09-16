@@ -1,0 +1,93 @@
+.container{
+    display: flex;
+    border: 1px solid grey;
+    padding: 25px;
+    width: 650px;
+    margin: auto;
+    border-radius: 12px;
+    flex-direction:row;
+    flex-wrap: wrap;
+
+
+    
+}
+.logo{
+    color: green;
+    text-align: center;
+}
+.childContainer{
+
+
+    margin: 20px;
+
+}
+.guestContainer{
+
+    display: flex;
+   margin-left: 200px;
+   padding: 20px;
+   gap: 20px;
+   width: 450px;
+   height: 100px;
+}
+.guestContainer button{
+
+   width: 50px;
+   height: 50px;
+   margin-top: 10px;
+   background-color: goldenrod;
+   font-size: 40px;
+   border-radius: 10px;
+
+}
+.guestContainer button:hover{
+
+  background-color: black;
+  color: goldenrod;
+  cursor: pointer;
+
+}
+.container img{
+    width: 350px;
+    height: 200px;
+    border-radius: 14px;
+
+}
+.priceContainer{
+    /* border: 1px solid grey; */
+    margin-left: 170px;
+}
+.line{
+    border-bottom: 2px solid grey;
+    width:700px;
+}
+.nightContainer{
+    display: flex;
+    gap: 20px;
+    width:500px;
+}
+.nightContainer button{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.bookingContainer{
+    margin: auto;
+    margin-top: 30px;
+
+}
+.bookingContainer button{
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    color: goldenrod;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    
+
+}
+.bookingConfirmedText{
+    color: green;
+    font-size: 20px;
+}

@@ -1,25 +1,50 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Nav from './Nav/Nav';
+import hotelsData from './assets/HotelsData'
+import About from './components/About';
+import Home from './components/Home';
+import Hotels from './components/Hotels/Hotels';
+import { Routes, Route } from 'react-router-dom';
+import Contact from './components/Contact';
+import PageNotFound from './components/PageNotFound';
+import HotelDetails from './components/Hotels/HotelDetails';
+import HotelBookingPage from './components/Hotels/HotelBookingPage';
+
+
+
+
 
 function App() {
+
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+     <> 
+  
+    <Nav />
+
+
+    
+   
+  <Routes >
+    <Route path='/' element ={<Home />} />
+    <Route path='/about' element ={<About />} />
+
+    <Route path='/hotelsList' 
+    element ={<Hotels 
+    hotels={hotelsData}/>}/>
+    <Route path='/contact' element ={<Contact  />} />
+    <Route path='/hotels/:id' element= {<HotelDetails />}></Route>
+    <Route path='/hotels/:id/book' element ={<HotelBookingPage />}></Route>
+
+
+§
+    <Route path='*'  element={<PageNotFound />}/>
+  </Routes>
+  </>
   );
+  
+
 }
 
 export default App;
