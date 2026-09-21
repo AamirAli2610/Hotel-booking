@@ -1,0 +1,37 @@
+.container{
+
+    border: 1px solid gray;
+    width: 700px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 20px;
+
+
+}
+.logo{
+    text-align: center;
+    color: rgb(120, 121, 120);
+}
+
+.container img{
+    width: 300px;
+    border-radius: 10px;
+    margin-right: 30px;
+
+}
+
+.childContainer{
+
+ display: flex;
+ padding: 10px;
+ margin: 20px;
+
+    
+
+
+}
+
+.hotelInfo{
+   flex: 1;
+}
