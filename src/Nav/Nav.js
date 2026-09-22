@@ -11,6 +11,7 @@ const Nav = () => {
         <a href="/hotelsList">Hotels List</a>
         <a href="/contact">Contact</a>
         <a href="/bookedhotels">Booked Hotels</a>
+        <a href="/favourithotel"> Favourite Hotels</a>
       </nav>
     </div>
   );

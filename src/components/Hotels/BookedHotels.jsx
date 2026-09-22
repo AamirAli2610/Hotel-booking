@@ -1,6 +1,5 @@
 import React from "react";
 import { useSelector } from "react-redux";
-
 import styles from "./BookedHotels.module.css";
 
 const BookedHotels = () => {

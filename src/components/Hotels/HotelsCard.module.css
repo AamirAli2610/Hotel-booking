@@ -64,9 +64,10 @@
 }
 .bookBtn:hover,
 .detailBtn:hover,
-.cancleBtn:hover {
+.cancleBtn:hover,
+.favrtBtn:hover {
   background-color: rgb(0, 0, 0);
-  color: goldenrod;
+  color: rgb(241, 241, 241);
   transform: scale(1.05);
 }
 
@@ -75,6 +76,11 @@
    
 }
 
+.fvrtMsg{
+   color: green;
+   font-size: 20px;
+   text-align: center;
+}
 .detailBtn{
    margin-right: 10px;
   background-color: goldenrod;
@@ -86,5 +92,18 @@
    transition: transform 1s ease;
    width: 150px;
    height: 50px;
+
+}
+.favrtBtn{
+
+  background-color: goldenrod;
+   color: black;
+   border-radius: 10px;
+   border: 2px solid grey;
+   cursor: pointer;
+   font-size: 17px;
+   transition: transform 1s ease;
+   width: 150px;
+
 
 }

@@ -8,7 +8,6 @@ import { faCheck } from "@fortawesome/free-solid-svg-icons/faCheck";
 import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { bookHotel } from "../Store/BookingSlice";
-
 const HotelBookingPage = () => {
   const { id } = useParams();
 
@@ -62,7 +61,7 @@ const HotelBookingPage = () => {
       totalAmount: nights * hotel.price,
     };
 
-    // dispatching hotel to bookHotel
+    // dispatching booked hotel to bookHotel
     dispatch(bookHotel(bookedHotel));
   };
 
